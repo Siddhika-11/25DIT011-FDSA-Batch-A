@@ -15,7 +15,6 @@ int main()
 
     string temp = "";
 
-    
     for (int i = 0; i < sentence.length(); i++)
     {
         if (sentence[i] != ' ')
@@ -41,5 +40,7 @@ int main()
     }
 
     cout << "Longest Word: " << longest << endl;
+    cout << "Number of Characters: " << longest.length() << endl;
 
     return 0;
+}
