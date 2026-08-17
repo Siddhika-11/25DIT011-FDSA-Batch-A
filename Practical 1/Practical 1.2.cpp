@@ -16,7 +16,7 @@ int main()
         cin >> book[i];
     }
 
-    cout << "Books borrowed more than once are: ";
+    cout << "Books borrowed more than once are:\n";
 
     for(int i = 0; i < n; i++)
     {
@@ -45,7 +45,8 @@ int main()
 
             if(alreadyPrinted == false)
             {
-                cout << book[i] << " ";
+                cout << "Book ID: " << book[i]
+                     << "  Borrowed: " << count << " times" << endl;
             }
         }
     }
